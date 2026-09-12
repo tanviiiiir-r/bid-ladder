@@ -35,6 +35,16 @@ Approver: Founder (Tanvir)
 ```
 
 ```text
+ID: DECISION-010
+Date: 2026-09-12
+Topic: Geographic scope at launch
+Decision: Launch targets global internet-native markets. Do not target Bangladesh (or BD-only boards such as BanglaLaunch / BDHunt) as the launch geography.
+Rationale: Founder stated explicitly in CEO chat: not targeting Bangladesh now; targeting global markets.
+Status: DECIDED
+Approver: Founder (Tanvir)
+```
+
+```text
 ID: DECISION-013
 Date: 2026-09-12
 Topic: Launch Grok Bot agent roster (pre-employee)
@@ -48,7 +58,7 @@ Approver: Founder (Tanvir)
 
 | ID | Topic | Status | Owner |
 |---|---|---|---|
-| DECISION-001 | Initial launch market / ecosystem | OPEN | CEO / Founder |
+| DECISION-001 | Initial launch market / ecosystem | OPEN (working assumption: PH-style global maker cohort) | CEO / Founder |
 | DECISION-002 | Product repository name and location | DECIDED | Founder |
 | DECISION-003 | Lovable account / project setup | OPEN (held) | Founder |
 | DECISION-004 | Supabase project structure | OPEN | CEO / Founder |
@@ -57,7 +67,7 @@ Approver: Founder (Tanvir)
 | DECISION-007 | Credit/bid/payment model | OPEN | Founder |
 | DECISION-008 | Referral reward model | OPEN | Founder |
 | DECISION-009 | Activity reward boundaries | OPEN | CEO / Founder |
-| DECISION-010 | Geographic scope at launch | OPEN | CEO / Founder |
+| DECISION-010 | Geographic scope at launch | DECIDED | Founder |
 | DECISION-011 | Categories and taxonomy at launch | OPEN | CEO |
 | DECISION-012 | Admin access model | OPEN | Founder |
 | DECISION-013 | Launch Grok Bot agent roster | DECIDED | Founder |
