@@ -38,8 +38,8 @@ Approver: Founder (Tanvir)
 ID: DECISION-002
 Date: 2026-09-12
 Topic: Product repository name and location
-Decision: Create public GitHub repository tanviiiiir-r/bid-ladder-app as the product application repo (Lovable / React + Supabase). Company OS remains tanviiiiir-r/bid-ladder. Product code must not live in the company OS repo.
-Rationale: Founder selected bid-ladder-app in CEO chat after Phase 1 kickoff. Separates product build surface from AI company OS.
+Decision: Canonical product GitHub repository is tanviiiiir-r/rising-star-board (public, Lovable two-way sync). Company OS remains tanviiiiir-r/bid-ladder. Product code must not live in the company OS repo. Prior name bid-ladder-app is retired (Lovable cannot attach to an existing repo; keep the Lovable-created sync repo and rename/use it as rising-star-board).
+Rationale: Founder directed 2026-09-12 to keep rising-star-board as primary product repo, fold bid-ladder-app contents into it, and stop using bid-ladder-app. Separates product build surface from AI company OS while matching Lovable's create-only GitHub sync model.
 Status: DECIDED
 Approver: Founder (Tanvir)
 ```
@@ -48,7 +48,7 @@ Approver: Founder (Tanvir)
 ID: DECISION-003
 Date: 2026-09-12
 Topic: Lovable account / project setup
-Decision: Unhold Lovable. Install and authenticate Lovable connector. Create Lovable project Bid Ladder (id 6e05f72b-e75f-4175-a163-ef7e3b9791d9) in workspace "tanvir's Lovable" with thin-MVP brief. Target GitHub sync to tanviiiiir-r/bid-ladder-app. Editor: https://lovable.dev/projects/6e05f72b-e75f-4175-a163-ef7e3b9791d9
+Decision: Unhold Lovable. Install and authenticate Lovable connector. Create Lovable project Bid Ladder (id 6e05f72b-e75f-4175-a163-ef7e3b9791d9) in workspace "tanvir's Lovable" with thin-MVP brief. Target GitHub sync to tanviiiiir-r/rising-star-board (amended with DECISION-002). Editor: https://lovable.dev/projects/6e05f72b-e75f-4175-a163-ef7e3b9791d9
 Rationale: Founder requested Lovable setup for ASAP thin MVP build after DECISION-001 locked and MVP briefs drafted.
 Status: DECIDED
 Approver: Founder (Tanvir)
