@@ -74,6 +74,16 @@ Status: DECIDED
 Approver: Founder (Tanvir)
 ```
 
+```text
+ID: DECISION-014
+Date: 2026-09-12
+Topic: Production hardening specialist agent roster (Wave 1)
+Decision: Create Bid Ladder Harden fleet at L1 Draft: Staff Architect (custom), Repo Hardener, CI Sweeper, Evidence Packager, plus channel "Bid Ladder Harden". Reuse existing Eng / PR Reviewer / Bug Reproduction / Issue Drafter (do not duplicate). No routines on install. Publish remains held. Wave 2 (Docs Drift, Query Helper, Incident Desk, Changelog, Product Performance) deferred until Wave 1 earns trust. CEO remains orchestrator; founder approves merges/publish.
+Rationale: Founder requested specialist agents for architecture, security, testing, and CI/CD before production publish. Mapped to grok-bot-templates + one custom Staff Architect. Approved in CEO chat 2026-09-12.
+Status: DECIDED
+Approver: Founder (Tanvir)
+```
+
 ## Proposed / Open Questions
 
 | ID | Topic | Status | Owner |
@@ -91,6 +101,7 @@ Approver: Founder (Tanvir)
 | DECISION-011 | Categories and taxonomy at launch | OPEN | CEO |
 | DECISION-012 | Admin access model | OPEN | Founder |
 | DECISION-013 | Launch Grok Bot agent roster | DECIDED | Founder |
+| DECISION-014 | Hardening specialist agent roster | DECIDED | Founder |
 
 ## Principles
 
