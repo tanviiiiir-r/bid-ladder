@@ -24,12 +24,22 @@ Status: DECIDED
 Approver: Founder (Tanvir)
 ```
 
+```text
+ID: DECISION-002
+Date: 2026-09-12
+Topic: Product repository name and location
+Decision: Create public GitHub repository tanviiiiir-r/bid-ladder-app as the product application repo (Lovable / React + Supabase). Company OS remains tanviiiiir-r/bid-ladder. Product code must not live in the company OS repo.
+Rationale: Founder selected bid-ladder-app in CEO chat after Phase 1 kickoff. Separates product build surface from AI company OS.
+Status: DECIDED
+Approver: Founder (Tanvir)
+```
+
 ## Proposed / Open Questions
 
 | ID | Topic | Status | Owner |
 |---|---|---|---|
 | DECISION-001 | Initial launch market / ecosystem | OPEN | CEO / Founder |
-| DECISION-002 | Product repository name and location | OPEN | Founder |
+| DECISION-002 | Product repository name and location | DECIDED | Founder |
 | DECISION-003 | Lovable account / project setup | OPEN | Founder |
 | DECISION-004 | Supabase project structure | OPEN | CEO / Founder |
 | DECISION-005 | Listing eligibility criteria | OPEN | CEO |
