@@ -45,6 +45,16 @@ Approver: Founder (Tanvir)
 ```
 
 ```text
+ID: DECISION-003
+Date: 2026-09-12
+Topic: Lovable account / project setup
+Decision: Unhold Lovable. Install and authenticate Lovable connector. Create Lovable project Bid Ladder (id 6e05f72b-e75f-4175-a163-ef7e3b9791d9) in workspace "tanvir's Lovable" with thin-MVP brief. Target GitHub sync to tanviiiiir-r/bid-ladder-app. Editor: https://lovable.dev/projects/6e05f72b-e75f-4175-a163-ef7e3b9791d9
+Rationale: Founder requested Lovable setup for ASAP thin MVP build after DECISION-001 locked and MVP briefs drafted.
+Status: DECIDED
+Approver: Founder (Tanvir)
+```
+
+```text
 ID: DECISION-010
 Date: 2026-09-12
 Topic: Geographic scope at launch
@@ -58,7 +68,7 @@ Approver: Founder (Tanvir)
 ID: DECISION-013
 Date: 2026-09-12
 Topic: Launch Grok Bot agent roster (pre-employee)
-Decision: Create Bid Ladder Launch fleet at L1: Research Desk, Cited Brief, Competitor Watch, Lovable Briefs (custom), plus existing CEO / Setup / Eng. Group channel "Bid Ladder Launch". No routines on install. Employees / additional specialists after launch as scaling. DECISION-003 Lovable remains held.
+Decision: Create Bid Ladder Launch fleet at L1: Research Desk, Cited Brief, Competitor Watch, Lovable Briefs (custom), plus existing CEO / Setup / Eng. Group channel "Bid Ladder Launch". No routines on install. Employees / additional specialists after launch as scaling.
 Rationale: Founder approved roster after review of cobusgreyling/grok-bot-templates mapped to Bid Ladder needs. Catalog bots adapted; Lovable Briefs custom for Phase 2 briefs.
 Status: DECIDED
 Approver: Founder (Tanvir)
@@ -70,7 +80,7 @@ Approver: Founder (Tanvir)
 |---|---|---|---|
 | DECISION-001 | Initial launch market / ecosystem | DECIDED | Founder |
 | DECISION-002 | Product repository name and location | DECIDED | Founder |
-| DECISION-003 | Lovable account / project setup | OPEN (held) | Founder |
+| DECISION-003 | Lovable account / project setup | DECIDED | Founder |
 | DECISION-004 | Supabase project structure | OPEN | CEO / Founder |
 | DECISION-005 | Listing eligibility criteria | OPEN | CEO |
 | DECISION-006 | Ranking algorithm v0.1 | OPEN | CEO |
