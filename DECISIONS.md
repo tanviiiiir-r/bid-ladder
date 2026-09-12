@@ -25,6 +25,16 @@ Approver: Founder (Tanvir)
 ```
 
 ```text
+ID: DECISION-001
+Date: 2026-09-12
+Topic: Initial launch market / ecosystem
+Decision: Launch wedge is a Product Hunt–style early-stage maker cohort, global (internet-native). First category focus: AI / SaaS / tools. Do not launch as a generic worldwide directory. Do not clone Outbid.lol pay-to-rank as the truth layer. Geography is global per DECISION-010 (not Bangladesh).
+Rationale: Research Desk DECISION-001 brief (2026-09-12) showed makers already compete on public boards and pay for adjacent visibility; PH-style cohort maximizes density + reachability + competitive behavior. Founder approved in CEO chat while holding Lovable (DECISION-003).
+Status: DECIDED
+Approver: Founder (Tanvir)
+```
+
+```text
 ID: DECISION-002
 Date: 2026-09-12
 Topic: Product repository name and location
@@ -58,7 +68,7 @@ Approver: Founder (Tanvir)
 
 | ID | Topic | Status | Owner |
 |---|---|---|---|
-| DECISION-001 | Initial launch market / ecosystem | OPEN (working assumption: PH-style global maker cohort) | CEO / Founder |
+| DECISION-001 | Initial launch market / ecosystem | DECIDED | Founder |
 | DECISION-002 | Product repository name and location | DECIDED | Founder |
 | DECISION-003 | Lovable account / project setup | OPEN (held) | Founder |
 | DECISION-004 | Supabase project structure | OPEN | CEO / Founder |
