@@ -1,0 +1,7 @@
+{
+  "name": "bid-ladder-company-os",
+  "install": "chmod +x scripts/validate.sh && ./scripts/validate.sh",
+  "repositoryDependencies": [
+    "github.com/tanviiiiir-r/rising-star-board"
+  ]
+}

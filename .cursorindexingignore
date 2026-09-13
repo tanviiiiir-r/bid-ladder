@@ -1,0 +1,3 @@
+# Company OS — skip generated / git internals from indexing
+.git/
+.planning/validation/
