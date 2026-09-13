@@ -12,12 +12,21 @@ The Bid Ladder product itself is built separately, primarily through **Lovable**
 
 ```text
 README.md              ← This file
+AGENTS.md              ← Standing instructions for every agent
+AGENT_OFFICE.md        ← Agent Office operating framework
 COMPANY.md             ← Company identity, mission, principles
 CEO.md                 ← CEO contract: role, boundaries, autonomy
 ROADMAP.md             ← Strategic roadmap and milestones
 DECISIONS.md           ← Decision log and unresolved questions
 agents/
     CEO.md             ← First executive agent definition
+adapters/
+    cursor.md          ← Cursor execution adapter
+    grok-bot.md        ← Grok Bot fleets (DECISION-013 / 014)
+    lovable.md         ← Product builder adapter
+slack/
+    OPERATING_SURFACE.md ← Proposed Slack surface (plan only)
+    SETUP_CHECKLIST.md ← Founder-interactive Slack setup (do not enact here)
 docs/
     PRODUCT.md         ← Product thesis and principles
     ARCHITECTURE.md    ← Product architecture outline
@@ -33,8 +42,9 @@ docs/
     research/          ← Research notes
     decisions/         ← Decision drafts
     roadmap/           ← Milestone breakdowns
-    templates/         ← Reusable agent/job templates
+    templates/         ← agent-contract, job, decision
     validation/        ← Validation and scoring records
+.cursor/               ← Cursor rules, agents, environment, Bugbot (PROPOSED)
 scripts/
     validate.sh        ← Framework validation script
 ```
@@ -44,8 +54,9 @@ scripts/
 - **Company:** Bid Ladder
 - **First executive agent:** Bid Ladder CEO
 - **Autonomy level:** Controlled / advisory
-- **Primary builder:** Lovable
-- **Source of truth:** GitHub
+- **Primary builder:** Lovable (product repo `tanviiiiir-r/rising-star-board`)
+- **Source of truth:** GitHub (`tanviiiiir-r/bid-ladder`)
+- **Agent Office / Cursor adapter / Slack surface:** PROPOSED (DECISION-015 / 016 / 017) — not DECIDED
 
 ## Important Constraints
 

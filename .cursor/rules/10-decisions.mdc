@@ -1,0 +1,14 @@
+---
+description: Decision log protocol — propose, do not enact MAJOR changes
+alwaysApply: true
+---
+
+Decision protocol for Bid Ladder Company OS:
+
+- Canonical log: `DECISIONS.md`. Template: `.planning/templates/decision.md`.
+- Routine docs/organization: execute on a feature branch + PR.
+- MAJOR strategic, financial, or destructive changes: founder approval + `DECISION-XXX`. Propose; do not mark DECIDED.
+- DECISION-015 / 016 / 017 in this office setup must remain **PROPOSED** until the founder approves.
+- Do not change status of an existing DECIDED row.
+- Do not invent economic values (see `docs/ECONOMICS-POC.md`).
+- Do not treat a PROPOSED row as authorization to create repos, spend money, or install Slack.

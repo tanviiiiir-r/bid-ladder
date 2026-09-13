@@ -11,6 +11,9 @@ Goal: Establish the operating company before building the product.
 - [x] Initial strategic context documented.
 - [x] Initial CEO report produced.
 - [x] Founder kickoff approved.
+- [ ] Agent Office framework on a PR (AGENTS.md, adapters, templates) — awaiting founder merge (DECISION-015 PROPOSED).
+- [ ] Cursor Company OS config on a PR (`.cursor/`, Bugbot) — awaiting founder merge (DECISION-016 PROPOSED).
+- [ ] Slack operating surface — plan only; do not enact (DECISION-017 PROPOSED).
 
 ## Phase 2: CEO → Lovable → MVP Planning
 

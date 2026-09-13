@@ -1,0 +1,18 @@
+---
+description: Lovable implementation briefs — product repo only, no economics, verify diffs
+globs:
+  - adapters/lovable.md
+  - docs/**/*.md
+alwaysApply: false
+---
+
+When producing or reviewing a Lovable brief:
+
+- Target product repo `tanviiiiir-r/rising-star-board` and Lovable project id `6e05f72b-e75f-4175-a163-ef7e3b9791d9` (DECISION-002 / 003).
+- Brief MUST include: objectives, context, requirements, constraints, acceptance criteria, security, testing.
+- Do not ask Lovable to redefine the business or to set prices/bids/credits/rewards.
+- No fabricated rankings, users, or activity.
+- Publish remains held (DECISION-014).
+- If Lovable MCP is connected: one focused `send_message`; use `plan_mode` when risky; verify with `get_diff`. A chat claim is not evidence.
+- If Lovable MCP is not connected: stop and ask the founder to authenticate. Do not invent preview URLs.
+- Never force-push Lovable-synced git history.

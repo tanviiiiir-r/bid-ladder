@@ -84,6 +84,36 @@ Status: DECIDED
 Approver: Founder (Tanvir)
 ```
 
+```text
+ID: DECISION-015
+Date: 2026-09-13
+Topic: Agent Office as company operating framework
+Decision: Adopt the Agent Office layout in tanviiiiir-r/bid-ladder: AGENTS.md, AGENT_OFFICE.md, adapters (Cursor, Grok Bot, Lovable), slack plan docs, and .planning/templates (agent-contract, job, decision). GitHub remains source of truth. This repo stays Company OS — no product app code, no Slack Bolt app.
+Rationale: Phase 1 docs exist but agents lacked a shared office (contracts, jobs, adapters). Installing the framework as PROPOSED lets the founder approve structure without enacting Slack or economics.
+Status: PROPOSED
+Approver: Founder (pending)
+```
+
+```text
+ID: DECISION-016
+Date: 2026-09-13
+Topic: Cursor as Company OS execution adapter
+Decision: Commit Cursor project config in this repo: .cursor/rules (00-company, 10-decisions, 20-adapters, 30-lovable-briefs), .cursor/environment.json, .cursor/mcp.json (no secrets), custom agents ceo-orchestrator / repo-hardener / research-desk, .cursor/BUGBOT.md, and .cursorindexingignore. Cursor executes Company OS PRs; Lovable still builds product; Grok Bot fleets remain per DECISION-013 / 014. Founder merges; Bugbot reviews.
+Rationale: Cloud Agents already work in this repo; versioning rules and agents in git makes the adapter inspectable and prevents product-code drift into Company OS.
+Status: PROPOSED
+Approver: Founder (pending)
+```
+
+```text
+ID: DECISION-017
+Date: 2026-09-13
+Topic: Slack as founder operating surface; Slack app in a separate repo
+Decision: If approved, Slack becomes the human operating surface (status, blockers, approvals) with GitHub still as memory. The Slack Bolt app MUST live in tanviiiiir-r/bid-ladder-slack (not this repo, not the product repo). Channel names Bid Ladder Launch / Bid Ladder Harden follow DECISION-013 / 014 but Slack channel creation is founder/workspace-admin. Enactment requires founder Slack login, admin channel creation, and secrets SLACK_BOT_TOKEN, SLACK_SIGNING_SECRET, SLACK_APP_TOKEN, GITHUB_TOKEN. Do not create bid-ladder-slack or install Slack until this row is DECIDED.
+Rationale: Keeps Company OS free of app code; avoids agents fabricating workspace/app IDs; matches the existing Grok Bot channel names without claiming Slack channels exist.
+Status: PROPOSED
+Approver: Founder (pending)
+```
+
 ## Proposed / Open Questions
 
 | ID | Topic | Status | Owner |
@@ -102,6 +132,9 @@ Approver: Founder (Tanvir)
 | DECISION-012 | Admin access model | OPEN | Founder |
 | DECISION-013 | Launch Grok Bot agent roster | DECIDED | Founder |
 | DECISION-014 | Hardening specialist agent roster | DECIDED | Founder |
+| DECISION-015 | Agent Office operating framework | PROPOSED | Founder |
+| DECISION-016 | Cursor as Company OS execution adapter | PROPOSED | Founder |
+| DECISION-017 | Slack operating surface; app repo bid-ladder-slack | PROPOSED | Founder |
 
 ## Principles
 

@@ -1,0 +1,13 @@
+---
+description: Adapter routing — Cursor, Grok Bot, Lovable, Slack plan
+alwaysApply: true
+---
+
+Route work through adapters. Specs:
+
+- Cursor (this repo's execution): `adapters/cursor.md`
+- Grok Bot fleets (DECISION-013 / 014, L1 Draft, no routines on install): `adapters/grok-bot.md`
+- Lovable (product builder): `adapters/lovable.md`
+- Slack (plan only until DECISION-017): `slack/OPERATING_SURFACE.md`
+
+Do not implement the product in this repo. Do not implement the Slack app in this repo. Do not enable Grok Bot routines. Custom Cursor agents live in `.cursor/agents/` and complement, not replace, the Grok Bot roster.

@@ -1,0 +1,14 @@
+---
+description: Bid Ladder Company OS identity and hard boundaries
+alwaysApply: true
+---
+
+This repository is the Bid Ladder **Company OS / Agent Office**, not the product app.
+
+- Product code belongs in `tanviiiiir-r/rising-star-board` (DECISION-002). Never add application code here.
+- Slack Bolt app belongs in `tanviiiiir-r/bid-ladder-slack` if DECISION-017 is approved. Do not create that repo or install Slack from this work.
+- GitHub is the source of truth. Inspect remote state; do not assume files exist.
+- Classify claims: FACT / HYPOTHESIS / ASSUMPTION / EXPERIMENT / DECISION.
+- Do not fabricate decisions, prices, bids, credits, rewards, users, rankings, or citations.
+- Founder approves merges. Never force-push or rewrite published history.
+- Read `COMPANY.md`, `CEO.md`, `AGENTS.md`, and `AGENT_OFFICE.md` before acting.
